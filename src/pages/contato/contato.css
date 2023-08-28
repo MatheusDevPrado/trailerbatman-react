@@ -1,0 +1,307 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+link {
+    display: none;
+}
+ul {
+    background-color: black;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+li {
+    background-color: black;
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 15px;
+    transition: 1s;
+    font-family: "kdam thmor pro", serif;
+}
+.banner {
+    background-image: url('https://pbs.twimg.com/media/FBwJWeQXIAItfyH.jpg:large');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+.contato {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    margin: 150px auto;
+    margin-top: 150px;
+    margin-right: auto;
+    margin-bottom: 150px;
+    margin-left: auto;
+}
+.formulario {
+    width: 600px;
+    padding: 40px;
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 30px;
+    border: 1px solid blue;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(22, 41, 210);
+    border-right-color: rgb(22, 41, 210);
+    border-bottom-color: rgb(22, 41, 210);
+    border-left-color: rgb(22, 41, 210);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 8px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background-color: rgb(40, 40, 151);
+}
+#p-i {
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: white;
+    background-color: rgb(40, 40, 151);
+    text-align: center;
+}
+.field {
+    background-color: rgb(40, 40, 151);
+    width: 100%;
+    margin: 15px 0;
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+}
+.field label {
+    background-color: rgb(40, 40, 151);
+    width: 100%;
+    padding-left: 10px;
+    font-size: 20px;
+    display: block;
+    color: aliceblue;
+    font-family: "kdam thmor pro", serif;
+}
+input[type=text], input[type='email'], textarea {
+    width: 100%;
+    padding: 12px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    border: 1px solid #fff;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    color: aliceblue;
+    background-color: rgb(40, 40, 151);
+}
+.field {
+    background-color: rgb(40, 40, 151);
+    width: 100%;
+    margin: 15px 0;
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+}
+.field label {
+    background-color: rgb(40, 40, 151);
+    width: 100%;
+    padding-left: 10px;
+    font-size: 20px;
+    display: block;
+    color: aliceblue;
+    font-family: "kdam thmor pro", serif;
+}
+input[type=text], input[type='email'], textarea {
+    width: 100%;
+    padding: 12px;
+    padding-top: 12px;
+    padding-right: 12px;
+    padding-bottom: 12px;
+    padding-left: 12px;
+    border: 1px solid #fff;
+    border-top-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 1px;
+    border-top-style: solid;
+    border-right-style: solid;
+    border-bottom-style: solid;
+    border-left-style: solid;
+    border-top-color: rgb(255, 255, 255);
+    border-right-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
+    border-left-color: rgb(255, 255, 255);
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    border-radius: 3px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    color: aliceblue;
+    background-color: rgb(40, 40, 151);
+}
+svg {
+    background-color: rgb(40, 40, 151);
+}
+.field {
+    background-color: rgb(40, 40, 151);
+    width: 100%;
+    margin: 15px 0;
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+}
+.field span {
+    background-color: rgb(40, 40, 151);
+    width: 100%;
+    font-size: 20px;
+    display: block;
+    color: #fff;
+    font-family: "kdam thmor pro", serif;
+}
+input#sim {
+    background-color: rgb(40, 40, 151);
+    margin-left: 30px;
+}
+.radiobox label {
+    background-color: rgb(40, 40, 151);
+    width: auto;
+    display: inline-block;
+}
+input#nao {
+    background-color: rgb(40, 40, 151);
+    margin-left: 30px;
+}
+.radiobox label {
+    background-color: rgb(40, 40, 151);
+    width: auto;
+    display: inline-block;
+}
+.field {
+    background-color: rgb(40, 40, 151);
+    width: 100%;
+    margin: 15px 0;
+    margin-top: 15px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+}
+input[type="submit"] {
+    display: block;
+    background-color: aliceblue;
+    height: 35px;
+    border: none;
+    border-top-width: initial;
+    border-right-width: initial;
+    border-bottom-width: initial;
+    border-left-width: initial;
+    border-top-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+    border-left-style: none;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-bottom-color: initial;
+    border-left-color: initial;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    outline: 0;
+    outline-color: initial;
+    outline-style: initial;
+    outline-width: 0px;
+    cursor: pointer;
+    width: 20%;
+    margin: 0 auto;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: auto;
+    text-align: center;
+    border-radius: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transition: .5s;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+    transition-property: all;
+    background-color: rgb(40, 40, 151);
+}
+.bottun {
+    background-color: rgb(40, 40, 151);
+    color: aliceblue;
+}
+@media(max-width: 700px){
+    nav {
+        display: none;
+    }
+    .footer-list {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #banner {
+        background-position: 40%;
+    }
+    .formulario {
+            margin-left: 5px;
+            margin-right: 5px;
+            height: 600px;
+    }
+    }
